@@ -3,7 +3,12 @@
   transition: all .5s linear;
 }
 
-#bear:hover #left-ear, #bear:hover #right-ear{
+#right-ear2, #left-ear2 {
+  transform: translateY(0);
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear, #bear:hover #right-ear {
   transform: translateY(-10px);
 }
 
@@ -12,7 +17,9 @@
 }
 
 @keyframes leftright {
+
   0% {
+
     transform: translateX(0);
   }
 
